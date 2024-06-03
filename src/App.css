@@ -1,0 +1,112 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.wrapper{
+    max-width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(19, 30, 41);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+h1,h2,p{
+    color: aliceblue;
+}
+input{
+    box-sizing: border-box;
+}
+
+button{
+    padding: 7px  10px;
+    background: transparent;
+    border: 1px solid white;
+    color: aliceblue;
+    letter-spacing: 1px;
+    opacity: .8;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .4s;
+}
+button:hover{
+    opacity: 1;
+}
+
+.contentTaskimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgTask{
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    animation: introImg 1s ease forwards;
+}
+@keyframes introImg{
+    from{
+        opacity: 0;
+        transform: translateY(20px);    
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.todo-list{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(92, 91, 91);
+}
+
+
+@media (max-width: 660px ){
+    .wrapper{
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        margin: 0 auto 60%;
+        margin-top: 40px;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: .7rem;
+    }
+    button{
+        font-size: .6rem;
+        padding: 4px;
+    }
+    .todo{
+        background-color: rgb(0, 0, 17);
+    }
+    .text, .category{
+        font-size: .6rem;
+    }
+    .search span{
+        font-size: .7rem;
+    }
+    .createTask span{
+        font-size: .7rem;
+    }
+    .status  select {
+        font-size: .9rem;
+    }
+    .selectBox select{
+        font-size: .9rem;
+    }
+    .completedTask{
+        background-color: rgb(0, 0, 17);
+    }
+}

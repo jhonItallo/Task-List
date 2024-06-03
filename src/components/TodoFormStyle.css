@@ -1,0 +1,90 @@
+.todo-form{
+    padding-bottom: 1.5rem;
+}
+
+input, select{
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.createTask{
+    position: relative;
+}
+.createTask input{
+    background: transparent;
+    border: 1px solid rgb(25, 119, 241);
+    padding: 10px;
+    color: aliceblue;
+}
+
+.createTask span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(25, 119, 241);
+    transition: .5s;
+}
+
+.createTask input:valid ~ span,
+.createTask input:focus ~ span{
+    color: rgb(255, 255, 255);
+    font-size: .65em;
+    transform: translateX(10px) translateY(-7px);
+    padding: 0 10px;
+    background-color: rgb(25, 119, 241);
+    border-radius: 4px;
+}
+
+
+.selectBox select{
+    background-color: rgb(25, 119, 241);
+    color: aliceblue;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-size: 1em;
+    box-shadow: 0x 5px 25px black;
+    text-shadow: 0px 0px 10px black;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+form .btnTodoform{
+    align-items: center;
+}
+
+.btnTodoform{
+    width: 100%;
+    transition: 2s;
+}
+
+.btnTodoform:hover{
+    background-color: rgb(25, 119, 241);
+    border: none;
+}
+.error-message{
+    color: red;
+}
+
+.limite{
+    opacity: 0;
+    color: red;
+    animation: limit .7s ease forwards;
+}
+
+@keyframes limit{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

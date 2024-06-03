@@ -1,0 +1,41 @@
+.filter{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.filter-option{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-option div{
+    flex: 1 1 0;
+}
+.filter-option select{
+        background-color: rgb(25, 119, 241);
+        color: aliceblue;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        font-size: 1em;
+        box-shadow: 0x 5px 25px black;
+        text-shadow: 0px 0px 10px black;
+        -webkit-appearance: button;
+        appearance: button;
+        outline: none;
+}
+.filterTitle{
+    margin-bottom: 4px;
+}
+.status p{
+    margin-bottom: 4px;
+}
+
+.ordem p{
+    margin-bottom: 8px;
+}
+
+.ordem button{
+    margin-bottom: 4px;
+}

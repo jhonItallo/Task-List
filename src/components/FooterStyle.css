@@ -1,0 +1,60 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+    width: 97%;
+    background: linear-gradient( transparent,rgb(19, 30, 41), rgb(19, 30, 41), rgb(19, 30, 41), rgb(19, 30, 41) );
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(25, 119, 241);
+}
+
+.sobre h2{
+    margin-right: 20px;
+    padding: 10px;
+    border-right: 2px solid rgb(25, 119, 241);
+    color: rgb(25, 119, 241);
+}
+
+.sobre p{
+    text-align: justify;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feedback h2{
+    color: rgb(25, 119, 241);
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.feedback span{
+    color: rgb(25, 119, 241);
+}
+
+@media (min-width: 360px ) and (max-width: 420px){
+    .feedback h2{
+        font-size: 1rem;
+    }
+    .feedback p{
+        font-size: .7rem;
+    }
+    .sobre h2{
+        color: rgb(25, 119, 241);
+        font-size: 1rem;
+    }
+
+}
