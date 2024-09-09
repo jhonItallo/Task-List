@@ -4,4 +4,6 @@
 eficiente seus projetos de vida.</p>
 
 <h2 align='center'>Caso você queira ver o deploy deste projeto👇</h2>
-<a href='https://task-list-nine-eta.vercel.app/' target='_blank'>Task List Deploy</a>
+<div align='center'>
+  <a href='https://task-list-nine-eta.vercel.app/' target='_blank'>Task List Deploy</a>
+</div>
