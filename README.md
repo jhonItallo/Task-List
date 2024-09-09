@@ -5,5 +5,7 @@ eficiente seus projetos de vida.</p>
 
 <h2 align='center'>Caso você queira ver o deploy deste projeto👇</h2>
 <div align='center'>
-  <a href='https://task-list-nine-eta.vercel.app/' target='_blank'>Task List Deploy</a>
+  <a href='https://task-list-p5aukj5pm-jhonitallos-projects.vercel.app/'>
+    <img src='https://cdn-icons-png.flaticon.com/512/4334/4334058.png' alt='deploy task list' height='50px' width='50px'/>
+  </a>
 </div>
