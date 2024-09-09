@@ -1,7 +1,7 @@
 <h2 align='center'>Projeto de Lista de tarefas</h2>
 
 <p align='center'>este é um projeto criado para ajudá-lo a organizar de maneira
-eficiente seus projetos de vida.</p>
+eficiente suas tarefas do dia a dia.</p>
 
 <h2 align='center'>Caso você queira ver o deploy deste projeto👇</h2>
 <div align='center'>
